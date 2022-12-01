@@ -2,8 +2,11 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
  
 *{
-    --PURPLE: #7b4ae2;
-     --DARK: #090e16;
+    --BLACK: #7b4ae2;
+     --BACKGROUND: #090e16;
+     --GRAY:#B0BAC7;
+     --BLUE:#4353FF;
+     --SECONDARY:#BFC7FA;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
