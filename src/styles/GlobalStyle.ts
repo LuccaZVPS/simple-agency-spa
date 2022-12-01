@@ -3,7 +3,9 @@ export const GlobalStyle = createGlobalStyle`
  
 *{
     @font-face { font-family: Graphik; src: url('GraphikRegular.otf'); } 
-     @font-face { font-family: Graphik; font-weight: bold; src: url('GraphikBold.otf');;}
+     @font-face { font-family: Graphik; font-weight: bold; src: url('GraphikBold.otf');}
+     @font-face { font-family: Graphik; font-weight: 600; src: url('GraphikSemibold.otf');;}
+
     --BLACK: #0B0720;
      --BACKGROUND: #F9F9F9;
      --GRAY:#B0BAC7;
