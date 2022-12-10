@@ -33,4 +33,9 @@ export const Container = styled.div`
       font-size: 2rem;
     }
   }
+  @media (max-width: 850px) {
+    .logo-name {
+      display: none;
+    }
+  }
 `;

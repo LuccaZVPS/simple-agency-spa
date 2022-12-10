@@ -40,4 +40,14 @@ export const Container = styled.div`
       font-size: 1rem;
     }
   }
+
+  @media (max-width: 850px) {
+    ul {
+      flex-direction: column;
+      text-align: center;
+    }
+    ul li a {
+      font-size: 1.2rem;
+    }
+  }
 `;
