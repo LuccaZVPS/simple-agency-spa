@@ -8,6 +8,7 @@ export const Container = styled.div`
   justify-items: center;
   align-items: center;
   row-gap: 20px;
+  z-index: 100;
   @media (max-width: 1200px) {
     width: 400px;
     column-gap: 30px;

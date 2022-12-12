@@ -5,11 +5,21 @@ export const Container = styled.div`
   flex-direction: column;
   gap: 20px;
   width: 520px;
+  position: relative;
+  z-index: 100;
   h2 {
     font-size: 3.5rem;
   }
   p {
     font-size: 1.1rem;
+  }
+
+  img {
+    position: absolute;
+    width: 130px;
+    bottom: -150px;
+    right: 0;
+    z-index: 0;
   }
 
   @media (max-width: 1900px) {
@@ -59,6 +69,9 @@ export const Container = styled.div`
     }
     p {
       font-size: 0.8rem;
+    }
+    img {
+      display: none;
     }
   }
 `;

@@ -7,6 +7,8 @@ export function Service() {
     <Container>
       <Content />
       <Grid />
+      <img className="cloud1" src="/cloud.png" alt="" />
+      <img className="cloud2" src="/cloud.png" alt="" />
     </Container>
   );
 }
