@@ -18,6 +18,7 @@ export const Container = styled.div`
     width: 25px;
     height: 40px;
     display: flex;
+    transition: 0.5s;
     span {
       display: none;
       position: absolute;
@@ -47,6 +48,9 @@ export const Container = styled.div`
       transform: rotate(-40deg);
       top: 40%;
     }
+  }
+  .close {
+    left: 20px;
   }
 
   @media (max-width: 850px) {

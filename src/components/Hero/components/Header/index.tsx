@@ -23,6 +23,7 @@ export function Header() {
 
   const closeAnimation = () => {
     const lines = menuButton.current.children as unknown as HTMLSpanElement[];
+    menuButton.current.classList.add("close");
     for (let index = 0; index < lines.length; index++) {
       lines[index].classList.add(`open${index + 1}`);
     }
@@ -30,6 +31,8 @@ export function Header() {
 
   const openAnimation = () => {
     const lines = menuButton.current.children as unknown as HTMLSpanElement[];
+    menuButton.current.classList.remove("close");
+
     for (let index = 0; index < lines.length; index++) {
       lines[index].classList.remove(`open${index + 1}`);
     }
