@@ -8,13 +8,13 @@ export function Grid() {
         <img src="/item2.png" alt="" />
       </Item>
       <Item color="#FDDFFA" text="Stragegy Planning">
-        <img src="/item1.png" alt="" />
+        <img src="/item2.png" alt="" />
       </Item>
       <Item color="#FCFDDF" text="Product House">
-        <img src="/item4.png" alt="" />
+        <img src="/item2.png" alt="" />
       </Item>
       <Item color="#DFFDF9" text="Creative Advertising">
-        <img src="/item3.png" alt="" />
+        <img src="/item2.png" alt="" />
       </Item>
     </Container>
   );
