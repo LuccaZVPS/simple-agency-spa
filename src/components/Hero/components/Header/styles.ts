@@ -55,10 +55,9 @@ export const Container = styled.div`
 
   @media (max-width: 850px) {
     background: var(--BACKGROUND);
-    position: absolute;
     height: 100%;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     z-index: 200;
     justify-content: space-evenly;
     width: 200px;
