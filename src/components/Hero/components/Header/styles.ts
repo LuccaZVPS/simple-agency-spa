@@ -50,7 +50,7 @@ export const Container = styled.div`
     }
   }
   .close {
-    left: 20px;
+    left: 160px;
   }
 
   @media (max-width: 850px) {
