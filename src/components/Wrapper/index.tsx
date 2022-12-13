@@ -1,4 +1,3 @@
-import { Contact } from "../Contact";
 import { Hero } from "../Hero";
 import { Service } from "../Service";
 import { Container } from "./styles";
@@ -8,7 +7,6 @@ export function Wrapper() {
     <Container>
       <Hero />
       <Service />
-      <Contact />
     </Container>
   );
 }

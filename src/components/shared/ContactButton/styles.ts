@@ -14,7 +14,6 @@ export const Container = styled.button`
   gap: 10px;
   font-size: 0.9rem;
   font-weight: bold;
-  cursor: pointer;
   svg {
     font-size: 1.6rem;
   }
