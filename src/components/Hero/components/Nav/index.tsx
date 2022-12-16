@@ -8,10 +8,10 @@ export function Nav() {
           <a href="#service">Service</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#customer">Customer</a>
         </li>
         <li>
-          <a href="#customer">Customer</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
       </ul>
     </Container>
