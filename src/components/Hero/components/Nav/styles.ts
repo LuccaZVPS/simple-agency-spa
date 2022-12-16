@@ -47,7 +47,7 @@ export const Container = styled.div`
       text-align: center;
     }
     ul li a {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
   }
 `;

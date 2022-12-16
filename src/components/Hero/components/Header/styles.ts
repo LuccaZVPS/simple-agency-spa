@@ -62,6 +62,7 @@ export const Container = styled.div`
     justify-content: space-evenly;
     width: 200px;
     right: -200px;
+    gap: 100px;
     box-shadow: 0 0 10px black;
     .menu {
       display: flex;
