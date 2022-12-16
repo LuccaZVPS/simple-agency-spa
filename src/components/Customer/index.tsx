@@ -4,7 +4,7 @@ import { Container } from "./styles";
 
 export function Customer() {
   return (
-    <Container>
+    <Container id="customer">
       <Content />
       <Grid />
       <img className="mountain-customer" src="/mountain-customer.png" alt="" />
