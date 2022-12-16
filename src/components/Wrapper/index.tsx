@@ -1,5 +1,6 @@
 import { Contact } from "../Contact";
 import { Customer } from "../Customer";
+import { Footer } from "../Footer";
 import { Hero } from "../Hero";
 import { Portfolio } from "../Portfolio";
 import { Service } from "../Service";
@@ -13,6 +14,7 @@ export function Wrapper() {
       <Customer />
       <Portfolio />
       <Contact />
+      <Footer />
     </Container>
   );
 }
