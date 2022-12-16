@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Container } from "./styles";
 export function Carrousel() {
   const slider = useRef(null as unknown as HTMLDivElement);
