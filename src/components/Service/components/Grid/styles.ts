@@ -9,6 +9,9 @@ export const Container = styled.div`
   align-items: center;
   row-gap: 20px;
   z-index: 100;
+  img{
+    width:200px;
+  }
   @media (max-width: 1200px) {
     width: 400px;
     column-gap: 30px;
