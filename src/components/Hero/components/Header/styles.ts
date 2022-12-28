@@ -8,7 +8,7 @@ export const Container = styled.div`
   justify-content: space-between;
   position: relative;
   transition: 0.5s;
-
+  z-index:100;
   .menu {
     display: none;
     position: absolute;
