@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -9,6 +9,7 @@ export const Container = styled.section`
   position: relative;
   padding-left: 40px;
   padding-right: 40px;
+  margin-bottom:40px;
   .cloud1 {
     position: absolute;
     top: 20px;
